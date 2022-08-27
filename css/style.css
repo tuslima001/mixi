@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 80%;
+    margin: 50px auto;
+    overflow: hidden;
+    background-color: cornflowerblue;
+    
+}
+.controls{
+    width: 40%;
+    margin: 55px auto;
+    display: flex;
+    justify-content: center;
+}
+.control{
+    margin: 0 15px;
+    padding: 15px 20px;
+}
+#img{
+    width: 80%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+.mix{
+    height: 250px;
+    margin: 10px;
+}
+#bac{
+    background: brown;
+    
+}
+#btn{
+    background: rgb(244, 17, 130);
+    color: rgb(239, 240, 240);
+    border-radius: 10px;
+    height: 40px;
+    margin: 5px;
+    padding: 5px;
+    width: 85px;
+
+}
